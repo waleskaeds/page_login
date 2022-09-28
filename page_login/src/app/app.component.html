@@ -1,0 +1,13 @@
+<section class="areaLogin">
+  <div class="divForm">
+    <p class="titulo">Faça Login</p>
+    
+      <input type="text" id="name" class="inputLogin" placeholder="Nome" autofocus [(ngModel)]="usuario">
+      <br>
+      <input type="password" id="password" class="inputLogin" placeholder="Senha" [(ngModel)]="senha">
+      <br>
+      <input type="submit" class="buttonLogin" value="entrar" (click)="login()">
+    
+    <p>Ainda não tem uma conta?<a href="#">Criar conta</a></p>
+  </div>
+</section>
